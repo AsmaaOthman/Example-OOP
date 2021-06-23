@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+*{
+    margin:0; padding:0;
+    box-sizing:border-box;
+    font-family:'Playfair Display', serif;
+    text-decoration:none;
+    list-style:none;
+}
+body{
+    background-color:rgba(57, 129, 129, 0.781)
+}
+#hello{
+    width:50%;margin:auto;
+    height:720px;
+    background-color:rgba(45, 92, 92, 0.178);
+    padding-left:20px;
+}
+div #btn-hello{
+    width:40%;
+    height:10%;
+    margin:10% 0 0 30%;
+    text-transform: capitalize;
+    font-size: 20px;
+    color:rgba(18, 29, 29, 0.801);
+    cursor:pointer
+
+}
+@media screen and (max-width:767px) {
+    #hello{
+        width:80%;
+        height:400px;
+    }
+}
