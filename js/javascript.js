@@ -19,12 +19,15 @@ data.onclick = function (){
     }
 
     let person1 = new Person('Bob', 'Smith', 32, 'male', ['music', 'skiing']);
+    person1.interests[1]
     person1.bio()
 
     let person2 = new Person('Ahmed', 'Ali', 30, 'male', ['music', 'skiing']);
+    person2.interests[1]
     person2.bio()
 
     let person3 = new Person('Asmaa', 'Hamed', 25, 'female', ['music', 'skiing']);
+    person3.interests[1]
     person3.bio()
 
     person3.greeting()
